@@ -1,3 +1,0 @@
-gcc -ansi -c queue.c -I./ -o queue.o
-gcc -ansi -c main.c -I./ -o main.o
-gcc queue.o main.o -lgsl -lgslcblas -o main
